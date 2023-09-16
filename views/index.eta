@@ -1,0 +1,23 @@
+<head>
+    <title>doxxium map</title>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <link rel="stylesheet" href="/css/all.css">
+    <script src="/js/all.js"></script>
+</head>
+
+<body>
+    <div class="margin-center">
+        <div>
+            <h1>Doxxium Map</h1>
+            <p>There is <span id="__total_retards" class="text-data">[...]</span> total retards in this chat across <span id="__total_countries" class="text-data">[...]</span> countries. &nbsp;<img src="https://cdn.7tv.app/emote/63065b00b7e5a120600a2df6/3x.webp" class="emote"></p>
+            <div class="container"></div>
+            <div class="retard-display" id="__retards_display">Hover over the country to know who's there.</div>
+            <div>
+                <p class="small-text"><a href="https://reze.moe">reze.moe</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;♥</p>
+            </div>
+        </div>
+    </div>
+</body>

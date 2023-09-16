@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap');
+
+:root
+{
+    --brand-background: #2A2B2E;
+}
+
+*
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+    background: var(--brand-background);
+}
+
+.margin-center
+{
+    width: 60%;
+    margin: 42px auto;
+}
+
+.flex--center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.country
+{
+    fill: #888b95;
+
+    transition: 0.2s;
+}
+
+.country.active:not(.retards-spotted)
+{
+    fill: #adb2c5;
+}
+
+.country.retards-spotted
+{
+    fill: #98a4cf;
+}
+
+.country.retards-spotted[data-amount="0"]
+{
+    fill: #98a4cf;
+}
+
+.country.retards-spotted[data-amount="1"]
+{
+    fill: #8b9fd1;
+}
+
+.country.retards-spotted[data-amount="2"]
+{
+    fill: #7d9ad3;
+}
+
+.country.retards-spotted[data-amount="3"]
+{
+    fill: #7095d5;
+}
+
+.country.retards-spotted[data-amount="4"]
+{
+    fill: #6390d7;
+}
+
+.country.retards-spotted[data-amount="5"]
+{
+    fill: #568bd9;
+}
+
+.country.retards-spotted[data-amount="more"]
+{
+    fill: #4986db;
+}
+
+.country.retards-spotted.active
+{
+    fill: #b3bcdb;
+}
+
+h1
+{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.retard-display
+{
+    margin: 24px 0;
+}
+
+.text-data
+{
+    background: #888b95;
+    margin: 0px 6px;
+    padding: 2px 14px;
+    vertical-align: middle;
+}
+
+.emote-text
+{
+    vertical-align: middle;
+}
+
+.emote
+{
+    vertical-align: middle;
+    width: 24px;
+}
+
+.retard-display
+{
+    overflow-y: auto;
+}
+
+.retard-card
+{
+    padding: 4px 12px;
+    vertical-align: middle;
+    display: inline-block;
+
+    background: #606470;
+    margin: 4px;
+}
+
+.retard-card > .circle
+{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #568bd9;
+    border-radius: 999px;
+
+    margin: 0 8px 0 0;
+
+    vertical-align: middle;
+}
+
+.retard-card > span
+{
+    vertical-align: middle;
+}
+
+.small-text
+{
+    font-size: 12px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
