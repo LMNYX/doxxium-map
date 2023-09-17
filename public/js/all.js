@@ -1,6 +1,5 @@
 window.onload = async () =>
 {
-
     const retardData = await fetch('/data/everyone.json');
     const retardsJson = await retardData.json();
 
@@ -28,7 +27,18 @@ window.onload = async () =>
 
     const g = svg.append('g');
 
-    d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(data => {
+    const zoom = d3.zoom()
+        .scaleExtent([1, 8]) // Define the zoom scale limits
+        .on('zoom', zoomed);
+
+    svg.call(zoom);
+
+    function zoomed(event) {
+        g.selectAll('path')
+            .attr('transform', event.transform); // Apply the transform to paths
+    }
+
+    d3.json('https://raw.githubusercontent.com/dd1b/topojson_world_map/master/world-110m.json').then(data => {
         const countries = topojson.feature(data, data.objects.countries);
 
         g.selectAll('path').data(countries.features).enter().append('path').attr('class', d => {

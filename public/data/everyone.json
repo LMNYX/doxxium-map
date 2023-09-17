@@ -1,5 +1,5 @@
 {
-	"United States of America": ["stricker1", "hurley", "Syynn", "Kexiv", "zvlpha", "Risu", "Shepp"],
+	"United States": ["stricker1", "hurley", "Syynn", "Kexiv", "zvlpha", "Risu", "Shepp"],
 	"Brazil": ["aasd2gfn"],
 	"Spain": ["mrPlus"],
 	"Japan": ["misha"],
@@ -9,7 +9,7 @@
 	"Belgium": ["Ramfie"],
 	"Netherlands": ["MrDutchBoi"],
 	"Poland": ["Defendium"],
-	"Czechia": ["Tasty"],
+	"Czech Republic": ["Tasty"],
 	"Hungary": ["Chantii"],
 	"Turkey": ["Cactus", "Kanui"],
 	"Romania": ["Bogdye"],
@@ -17,6 +17,8 @@
 	"Latvia": ["tapLing"],
 	"Estonia": ["Willy"],
 	"Indonesia": ["Styx", "Crafttex"],
-	"Malaysia": ["OkFriz", "yong1200", "Nephraa"],
-	"Russia": ["Dorito"]
+	"Malaysia": ["OkFriz", "yong1200"],
+    "Singapore": ["Nephraa"],
+    "Sweden": ["NekoPavel"],
+	"Russian Federation": ["Dorito"]
 }
